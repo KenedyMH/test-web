@@ -1,0 +1,41 @@
+.habilidades{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.html{
+    background-color: #04aa6d;
+    animation: fillhtml 2s forwards;
+}
+.css{
+    background-color: #2196f3;
+    animation: fillcss 2s forwards;
+}
+.javascript{
+    background-color: #f44336;
+    animation: filljavascript 2s forwards;
+}
+
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 70%}
+}
+@keyframes filljavascript{
+    0%{width: 0;}
+    100%{width: 50%}
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>test3</title>
+   <link rel="stylesheet" href="/assets/css/navstyle.css">
+   <link rel="stylesheet" href="/assets/css/styles3.css">
+</head>
+
+<body>
+   
+   <nav class="nav-main">
+      <ul class="menu-horizontal-main">
+         <li><a href="../index.html">Inicio</a></li>
+         <li><a href="#">1-5</a>
+            <ul class="menu-vertical-main">
+               <li><a href="/pages/test1.html">MENÚ DESPLEGABLE</a></li>
+               <li><a href="/pages/test2.html">ANIMACION DEL ANCHO DE UNA IMAGEN</a></li>
+               <li><a href="/pages/test3.html">ARRASTRAR Y SOLTAR</a></li>
+               <li><a href="/pages/test4.html">BARRA ANIMADA</a></li>
+               <li><a href="/pages/test5.html">FONDO CON LINEAR GRADIENT</a></li>
+            </ul>
+         </li>
+         <li><a href="#">6-10</a>
+            <ul class="menu-vertical-main">
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+            </ul>
+         </li>
+         <li><a href="#">11-16</a>
+            <ul class="menu-vertical-main">
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+               <li><a href="#">test</a></li>
+            </ul>
+         </li>
+      </ul>
+   </nav>
+
+   <h1>ARRASTRAR Y SOLTAR</h1>
+
+   <div class="container-main">
+      <h2>Arrastra donde corresponde</h2>
+      <div class="container">
+         <!-- ondragstart: especifico que debe suceder cuando se arrastra el elemento draggable: indico que el elemento se podra arrastrar -->
+         <img src="/assets/img/1.jpg" alt="" draggables="true" ondragstart="drag(event)" id="programador">
+         <img src="/assets/img/2.jpg" alt="" draggables="true" ondragstart="drag(event)" id="fotografo"">
+         <img src="/assets/img/3.jpg" alt="" draggables="true" ondragstart="drag(event)" id="diseñadora">
+      </div>
+
+      <div class="container">
+         <div class="figura">
+            <!-- ondrop: especifico que sucede cuando se suelta un elemnto arrastrado ondragover: especifico donde se pueden soltar los datos arrastrados -->
+            <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h3>Fotografo</h3>
+         </div>
+         <div class="figura">
+            <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h3>Diseñadora</h3>
+         </div>
+         <div class="figura">
+            <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h3>Programador</h3>
+         </div>
+      </div>
+
+      <button class="boton" onclick="reiniciarPag()">Reiniciar</button>
+
+   </div>
+
+
+   <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
