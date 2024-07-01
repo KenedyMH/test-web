@@ -13,13 +13,13 @@ body{
     justify-content: space-between;
 }
 .img1{
-    background-image: url(/assets/img/1.jpg);
+    background-image: url(../img/1.jpg);
 }
 .img2{
-    background-image: url(/assets/img/2.jpg);
+    background-image: url(../img/2.jpg);
 }
 .img3{
-    background-image: url(/assets/img/3.jpg);
+    background-image: url(../img/3.jpg);
 }
 .item{
     width: 30%;

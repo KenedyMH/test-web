@@ -12,19 +12,19 @@ section{
     1: linear gradient - para dar color a la papa(usamos rgba para color transparente
     2: url - para colocar la imagen */
     background:
-        linear-gradient(rgba(232,39,197,.5),rgba(232,39,197,.5)), url(/assets/img/fondo1.jpg);
+        linear-gradient(rgba(232,39,197,.5),rgba(232,39,197,.5)), url(../img/fondo1.jpg);
     background-size: cover;
     background-position: center center;
 }
 .overlay2{
     background:
-        linear-gradient(to right,rgba(0,0,0,.9),transparent), url(/assets/img/fondo2.jpg);
+        linear-gradient(to right,rgba(0,0,0,.9),transparent), url(../img/fondo2.jpg);
     background-size: cover;
     background-position: center center;
 }
 .overlay3{
     background:
-        radial-gradient(rgba(255,255,255,.5),rgba(0,0,0,1) 80%), url(/assets/img/fondo3.jpg);
+        radial-gradient(rgba(255,255,255,.5),rgba(0,0,0,1) 80%), url(../img/fondo3.jpg);
     background-size: cover;
     background-position: center center;
 }
