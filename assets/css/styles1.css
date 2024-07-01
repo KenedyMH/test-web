@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-nav{
+.nav-test{
     max-width: 900px;
     margin: auto;
     background-color: #333;
