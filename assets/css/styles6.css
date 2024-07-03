@@ -10,7 +10,7 @@
     text-align: center;
     border-radius: 5px;
     max-width: 900px;
-    padding: 20px;
+    padding: 40px 20px;
     cursor:default;
     margin-top: 20px;
 }
@@ -18,7 +18,8 @@
     width: 65%;
     height: 30px;
     border-color: blue;
-    font-size: large
+    font-size: large;
+    margin: 40px 0;
 }
 .container button{
     width: 20%;
@@ -40,8 +41,7 @@
     width: 35px;
     border-radius: 100%;;
     text-align: center;
-    margin: 0 10px
-    
+    margin: 0 10px;    
 }
 .container li{
     border-bottom: 1px dashed #333;
@@ -53,7 +53,8 @@
     width: 20px;
     border-radius: 100%;;
     text-align: center;
-    margin: 0 10px
+    margin: 0 10px;
+    font-size: 14.5px;
 }
 .container ul{
     text-align: start;
