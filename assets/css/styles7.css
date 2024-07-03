@@ -1,0 +1,30 @@
+.test7{
+    box-sizing: border-box;
+    background: linear-gradient(90deg, red, orange);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+.test7 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.test7 ul li{
+    margin: 0 20px;
+}
+.test7 ul li .linea{
+    display: block;
+    height: 2px;
+    background: white;
+    width: 0;
+    transition: .5s;
+}
+.test7 ul li:hover .linea{
+    width: 100%;
+}
+.test7 ul li a{
+    text-decoration: none;
+    color: white;
+}
